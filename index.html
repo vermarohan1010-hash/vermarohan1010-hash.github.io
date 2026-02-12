@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,13 +23,22 @@
 
     h1 {
         font-size: 42px;
-        margin: 0;
+        margin: 10px 0 0 0;
         color: #38bdf8;
     }
 
     .tagline {
         font-size: 18px;
         color: #94a3b8;
+    }
+
+    .profile-img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #38bdf8;
+        margin-bottom: 10px;
     }
 
     section {
@@ -71,6 +79,13 @@
 <body>
 
 <header>
+    <!-- Clickable Profile Image -->
+    <a href="https://ibb.co/mFH3vBL7" target="_blank">
+        <img class="profile-img"
+             src="https://i.ibb.co/mFH3vBL7/rohan-dp.jpg"
+             alt="Rohan Trader">
+    </a>
+
     <h1>Rohan Trader 📉📈</h1>
     <p class="tagline">Buy Low ❌ | Sell Lower ❌ | Repeat 🔁</p>
 </header>
@@ -120,3 +135,4 @@ updateLoss();
 
 </body>
 </html>
+
